@@ -132,7 +132,7 @@
 .hero-section__star-text--main {
     color: var(--text-color);
     font-family: Comfortaa;
-    font-size: 48px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -141,7 +141,7 @@
 .hero-section__star-text--secondary {
     color: var(--accent-title-color);
     font-family: Comfortaa;
-    font-size: 68px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -229,7 +229,7 @@
     .hero-section__star-text--main {
         color: var(--text-color);
         font-family: Comfortaa;
-        font-size: 34px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -238,7 +238,7 @@
     .hero-section__star-text--secondary {
         color: var(--accent-title-color);
         font-family: Comfortaa;
-        font-size: 52px;
+        font-size: 36px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -263,6 +263,10 @@
 
     .icon-section__container {
         gap: 10px;
+    }
+
+    .hero-section__star-text--secondary {
+        font-size: 24px;
     }
 }
 
