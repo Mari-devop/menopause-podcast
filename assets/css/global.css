@@ -1,0 +1,17 @@
+:root {
+    --main-bg-color: #fff;
+    --secondary-bg-color: #FAEBF2;
+    --accent-color: #E5AE5E;
+    --text-color: #092638;
+    --main-title-color: #092638;
+    --secondary-title-color: #FF009C;
+    --accent-title-color: #E08AB1;
+    --btn-color: #F440A0;
+}
+
+@font-face {
+    font-family: 'Kingsman Demo'; 
+    src: url('../fonts/Kingsman\ Demo.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}

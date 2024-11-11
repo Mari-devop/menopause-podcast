@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <title>Rebranding Menopause - Podcast</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-section">
+            <img src="assets/images/header/logo.png" alt="Rebranding Menopause Podcast" class="header-section__logo">
+            <button class="header-section__burger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="header-section__menu">
+                <li class="header-section__menu-item"><a href="about.html">About us</a></li>
+                <li class="header-section__menu-item"><a href="episodes.html">Mission</a></li>
+                <li class="header-section__menu-item"><a href="contact.html">Posts</a></li>
+                <li class="header-section__menu-item"><a href="contact.html">FAQ</a></li>
+                <button class="header-section__btn--item">Subscribe</button>
+            </ul>
+            <button class="header-section__btn">Subscribe</button>
+        </nav>
+    </header>
+    <main class="main-section">
+        <div class="hero-section">
+            <div class="hero-section__content">
+                <div class="hero-section__main-image">
+                    <img src="assets/images/main/title-image.png" alt="Rebranding Menopause Podcast"
+                        class="hero-section__main-image">
+                </div>
+                <div class="hero-section__text-container">
+                    <p class="hero-section__text">
+                        Rebranding Menopause empowers women to take control of their menopause journey with confidence
+                        by debunking myths, managing symptoms, and celebrating its strengths. Through education,
+                        stories, and expert insights, we create a supportive community and open conversation for women
+                        of all ages.
+                    </p>
+                </div>
+                <div class="hero-section__star-container">
+                    <p class="hero-section__star-text--main">Every day</p>
+                    <p class="hero-section__star-text--secondary">Podcast</p>
+                </div>
+            </div>
+            <div class="hero-section__video-content">
+                <img src="assets/images/main/main.png" alt="Main Podcast Image" class="hero-section__main"
+                    id="play-button">
+                <div class="hero-section__play-button">
+                    <img src="assets/images/main/play.png" alt="Play Button" class="hero-section__play"
+                        onclick="openModal()">
+                </div>
+            </div>
+            <img src="assets/images/main/Star.png" alt="Rebranding Menopause Podcast" class="hero-section__star">
+        </div>
+        <div class="icon-section">
+            <p class="icon-section__text">Available on:</p>
+            <div class="icon-section__container">
+                <img src="assets/images/main/youtube.png" alt="Rebranding Menopause Podcast" class="icon-section__icon">
+                <img src="assets/images/main/google-podcast.png" alt="Rebranding Menopause Podcast"
+                    class="icon-section__icon">
+                <img src="assets/images/main/spotify.png" alt="Rebranding Menopause Podcast" class="icon-section__icon">
+                <img src="assets/images/main/applepodcasts.png" alt="Rebranding Menopause Podcast"
+                    class="icon-section__icon">
+            </div>
+        </div>
+    </main>
+    <div id="video-modal" class="modal" onclick="closeModal()">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="video-wrapper">
+                <iframe id="video-frame" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <section class="voices-section">
+        <div class="voices-section__secondary-container">
+            <img src="assets/images/voices/Star.png" alt="Rebranding Menopause Podcast"
+                class="voices-section__secondary-image">
+            <h4 class="voices-section__secondary-title">Our mission</h4>
+            <div class="voices-section__secondary-text-container">
+                <p class="voices-section__secondary-text">
+                    Rebranding Menopause aims to transform the conversation around menopause by uncovering its secrets,
+                    and misinformation of the past, managing its symptoms, and celebrating the superpowers it brings. We
+                    are committed to empowering women of all ages through education, personal stories, and expert
+                    insights—creating a community and open and unleashed conversation where women take control of their
+                    journey with confidence.
+                </p>
+            </div>
+        </div>
+        <h2 class="voices-section__main-title">Our Voices</h2>
+        <div class="voices-section__main-container">
+            <div class="voices-section__main-item">
+                <div class="voices-section__main-image">
+                    <img src="assets/images/voices/img-1.jpeg" alt="Rebranding Menopause Podcast">
+                </div>
+                <h4 class="voices-section__title">Sharon Grasso</h4>
+                <p class="voices-section__text">
+                    Sharon Grasso is a Dually Licensed Permanent Makeup specialist, NYS Licensed Aesthectician,
+                    Aesthetic Consultant and practitioner with over 30 years experience, as well as a certified clinical
+                    application specialist.
+                </p>
+            </div>
+            <div class="voices-section__main-item">
+                <div class="voices-section__main-image">
+                    <img src="assets/images/voices/img-3.jpeg" alt="Rebranding Menopause Podcast">
+                </div>
+                <h4 class="voices-section__title">Dana Persico</h4>
+                <p class="voices-section__text">
+                    Recognized as a leading authority on all aspects of beauty and education Dana Persico Founder and
+                    Chief Executive Officer of The Nail Skin & Hair Institute has brought her “Science Based & Trend
+                    Forward” sense of style and global insights to many of the industries most respected beauty
+                    organizations.
+                </p>
+            </div>
+            <div class="voices-section__main-item">
+                <div class="voices-section__main-image">
+                    <img src="assets/images/voices/img-2.jpeg" alt="Rebranding Menopause Podcast">
+                </div>
+                <h4 class="voices-section__title">Ingrid Dodd</h4>
+                <p class="voices-section__text">
+                    Expert in Marketing Luxury Lifestyle Brands Ingrid Dodd Public Relations & Digital Marketing: Owner
+                    / Director of Digital Marketing & PR: OPTYX New York / Co-Founder NY Fit Fest / Host of Generations
+                    Connected TV
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="values-section">
+        <h2 class="values-section__title">Our Values</h2>
+        <div class="values-section__grid">
+            <div class="values-section__container">
+                <div class="values-section__container-item">
+                    <img src="assets/images/values/img-1.png" alt="Rebranding Menopause Podcast"
+                        class="values-section__container-image">
+                    <h4 class="values-section__container-title">Empowerment Through Knowledge</h4>
+                    <p class="values-section__container-text">
+                        Rebranding menopause provides women with accurate information, debunking myths and removing
+                        stigma,
+                        so they can navigate this life stage confidently and make informed health choices.
+                    </p>
+                </div>
+            </div>
+            <div class="values-section__container">
+                <div class="values-section__container-item">
+                    <img src="assets/images/values/img-2.png" alt="Rebranding Menopause Podcast"
+                        class="values-section__container-image">
+                    <h4 class="values-section__container-title">Promoting Health and Wellness</h4>
+                    <p class="values-section__container-text">
+                        By addressing the real physical and emotional impacts of menopause, we encourage better
+                        healthcare
+                        support, self-care, and proactive wellness practices for women.
+                    </p>
+                </div>
+            </div>
+            <div class="values-section__container">
+                <div class="values-section__container-item">
+                    <img src="assets/images/values/img-3.png" alt="Rebranding Menopause Podcast"
+                        class="values-section__container-image">
+                    <h4 class="values-section__container-title">Celebrating Strength and Resilience</h4>
+                    <p class="values-section__container-text">
+                        Menopause isn’t just a phase to endure-it’s a time that can reveal new strengths. Rebranding
+                        shifts
+                        the focus from loss to growth, embracing the unique capabilities women gain.
+                    </p>
+                </div>
+            </div>
+            <div class="values-section__container">
+                <div class="values-section__container-item">
+                    <img src="assets/images/values/img-4.png" alt="Rebranding Menopause Podcast"
+                        class="values-section__container-image">
+                    <h4 class="values-section__container-title">Creating an Inclusive Community</h4>
+                    <p class="values-section__container-text">
+                        Open dialogue around menopause fosters connection, reduces isolation, and builds a supportive
+                        community where women can share experiences, find validation, and thrive together.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-section__content">
+            <div class="footer-section__content-container">
+                <img src="assets/images/footer/logo-footer.png" alt="Rebranding Menopause Podcast"
+                    class="footer-section__content-logo">
+                <div class="footer-section__social">
+                    <h5>Social Media</h5>
+                    <div class="footer-section__social-icons">
+                        <a href="https://www.instagram.com/rebrandingmenopausepodcast/profilecard/?igsh=MTlyYjVpbXd0NTlieA=="
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/footer/instagram.png" alt="Rebranding Menopause Podcast"
+                                class="footer-section__social-icon">
+                        </a>
+                        <a href="https://www.facebook.com/share/FkPS7zX2KRF5zLrE/?mibextid=LQQJ4d" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="assets/images/footer/facebook.png" alt="Rebranding Menopause Podcast"
+                                class="footer-section__social-icon">
+                        </a>
+                        <a href="https://youtube.com/@rebrandingmenopause?si=1p7ITGljGR6FovrR" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="assets/images/footer/youtube.png" alt="Rebranding Menopause Podcast"
+                                class="footer-section__social-icon">
+                        </a>
+
+                        <img src="assets/images/footer/tik-tok.png" alt="Rebranding Menopause Podcast"
+                            class="footer-section__social-icon">
+                    </div>
+                </div>
+                <div class="footer-section__social border">
+                    <h5>Available on:</h5>
+                    <div class="footer-section__social-icons">
+                        <a href="https://youtube.com/@rebrandingmenopause?si=1p7ITGljGR6FovrR" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="assets/images/footer/youtube.png" alt="Rebranding Menopause Podcast" 
+                            class="footer-section__social-icon">
+                        </a>
+                            <img src="assets/images/footer/google-podcast.png" alt="Rebranding Menopause Podcast"
+                                class="footer-section__social-icon">
+                            <img src="assets/images/footer/spotify.png" alt="Rebranding Menopause Podcast"
+                                class="footer-section__social-icon">
+                            <img src="assets/images/footer/applepodcasts.png" alt="Rebranding Menopause Podcast"
+                                class="footer-section__social-icon">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section__content-form">
+                <h5>Find Your Community!</h5>
+                <script type="text/javascript" src="https://form.jotform.com/jsform/243152175031344"></script>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-section__copyright">
+        <p class="footer-section__text">Copyright © 2024 RebrandingMenopause. All Rights Reserved</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

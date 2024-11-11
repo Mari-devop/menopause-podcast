@@ -1,0 +1,125 @@
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-title-color);
+    padding: 55px 305px 0px;
+}
+
+.footer-section__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 186px;
+}
+
+.footer-section__content-form {
+    max-width: 493px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--accent-title-color); 
+    box-sizing: border-box;
+}
+
+.jotform-iframe {
+    all: unset;
+    display: block;
+    width: 100%;
+    height: 700px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+
+.footer-section__content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 631px;
+    width: 100%;
+}
+
+.footer-section__content-logo {
+    width: 240px;
+    height: 168.343px;
+    flex-shrink: 0;
+    margin-bottom: 46px;
+}
+
+.footer-section__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 122px;
+    border-top: 1px solid #FFF;
+}
+
+.border {
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 114px;
+}
+
+.footer-section__social h5 {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.footer-section__social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.footer-section__social-icon {
+    width: 62px;
+    height: 62px;
+}
+
+.footer-section__copyright {
+    padding-top: 57px;
+    border-top: 1px solid #FFF;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-title-color);
+    padding-bottom: 44px;
+}
+
+.footer-section__text {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-section__content-form h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 38px;
+}
