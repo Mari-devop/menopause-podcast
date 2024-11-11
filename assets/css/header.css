@@ -51,6 +51,15 @@
     color: var(--text-color);
 }
 
+.btn {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:visited {
+    color: #fff;
+}
+
 .header-section__btn {
     width: 149px;
     height: 42px;

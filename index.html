@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link type="text/css" rel="stylesheet"
+        href="https://cdn01.jotfor.ms/stylebuilder/static/form-common.css?v=534659c" />
+    <link type="text/css" rel="stylesheet"
+        href="https://cdn02.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.58487&themeRevisionID=5eb3b4ae85bd2e1e2966db96" />
+    <link type="text/css" rel="stylesheet"
+        href="https://cdn03.jotfor.ms/css/styles/payment/payment_styles.css?3.3.58487" />
+    <link type="text/css" rel="stylesheet"
+        href="https://cdn01.jotfor.ms/css/styles/payment/payment_feature.css?3.3.58487" />
     <title>Rebranding Menopause - Podcast</title>
 </head>
 
@@ -29,7 +37,11 @@
                 <li class="header-section__menu-item"><a href="#values">Values</a></li>
                 <button class="header-section__btn--item">Subscribe</button>
             </ul>
-            <button class="header-section__btn">Subscribe</button>
+            <button class="header-section__btn">
+                <a href="https://www.youtube.com/@RebrandingMenopausePodcast" target="_blank" class="btn">
+                    Subscribe
+                </a>
+            </button>
         </nav>
     </header>
     <main class="main-section" id="about">
@@ -38,6 +50,14 @@
                 <div class="hero-section__main-image">
                     <img src="assets/images/main/title-image.png" alt="Rebranding Menopause Podcast"
                         class="hero-section__main-image">
+                </div>
+                <div class="hero-section__video-content--mobile">
+                    <img src="assets/images/main/main.png" alt="Main Podcast Image" class="hero-section__main"
+                        id="play-button">
+                    <div class="hero-section__play-button">
+                        <img src="assets/images/main/play.png" alt="Play Button" class="hero-section__play"
+                            onclick="openModal()">
+                    </div>
                 </div>
                 <div class="hero-section__text-container">
                     <p class="hero-section__text">
@@ -88,7 +108,7 @@
         <div class="voices-section__secondary-container">
             <img src="assets/images/voices/Star.png" alt="Rebranding Menopause Podcast"
                 class="voices-section__secondary-image">
-            <h4 class="voices-section__secondary-title">Our mission</h4>
+            <h4 class="voices-section__secondary-title">Our Mission</h4>
             <div class="voices-section__secondary-text-container">
                 <p class="voices-section__secondary-text">
                     Rebranding Menopause aims to transform the conversation around menopause by uncovering its secrets,
@@ -197,21 +217,17 @@
                 <div class="footer-section__social">
                     <h5>Social Media</h5>
                     <div class="footer-section__social-icons">
-                        <a href="https://www.instagram.com/rebrandingmenopausepodcast/profilecard/?igsh=MTlyYjVpbXd0NTlieA=="
-                            target="_blank" rel="noopener noreferrer">
-                            <img src="assets/images/footer/instagram.png" alt="Rebranding Menopause Podcast"
-                                class="footer-section__social-icon">
-                        </a>
-                        <a href="https://www.facebook.com/share/FkPS7zX2KRF5zLrE/?mibextid=LQQJ4d" target="_blank"
-                            rel="noopener noreferrer">
-                            <img src="assets/images/footer/facebook.png" alt="Rebranding Menopause Podcast"
-                                class="footer-section__social-icon">
-                        </a>
-                        <a href="https://youtube.com/@rebrandingmenopause?si=1p7ITGljGR6FovrR" target="_blank"
-                            rel="noopener noreferrer">
-                            <img src="assets/images/footer/youtube.png" alt="Rebranding Menopause Podcast"
-                                class="footer-section__social-icon">
-                        </a>
+                        <img src="assets/images/footer/instagram.png" alt="Rebranding Menopause Podcast"
+                            class="footer-section__social-icon"
+                            onclick="window.open('https://www.instagram.com/rebrandingmenopausepodcast/profilecard/?igsh=MTlyYjVpbXd0NTlieA==', '_blank')">
+
+                        <img src="assets/images/footer/facebook.png" alt="Rebranding Menopause Podcast"
+                            class="footer-section__social-icon"
+                            onclick="window.open('https://www.facebook.com/share/FkPS7zX2KRF5zLrE/?mibextid=LQQJ4d', '_blank')">
+
+                        <img src="assets/images/footer/youtube.png" alt="Rebranding Menopause Podcast"
+                            class="footer-section__social-icon"
+                            onclick="window.open('https://youtube.com/@rebrandingmenopause?si=1p7ITGljGR6FovrR', '_blank')">
 
                         <img src="assets/images/footer/tik-tok.png" alt="Rebranding Menopause Podcast"
                             class="footer-section__social-icon">
@@ -220,11 +236,9 @@
                 <div class="footer-section__social border">
                     <h5>Available on:</h5>
                     <div class="footer-section__social-icons">
-                        <a href="https://youtube.com/@rebrandingmenopause?si=1p7ITGljGR6FovrR" target="_blank"
-                            rel="noopener noreferrer">
-                            <img src="assets/images/footer/youtube.png" alt="Rebranding Menopause Podcast"
-                                class="footer-section__social-icon">
-                        </a>
+                        <img src="assets/images/footer/youtube.png" alt="Rebranding Menopause Podcast"
+                            class="footer-section__social-icon"
+                            onclick="window.open('https://youtube.com/@rebrandingmenopause?si=1p7ITGljGR6FovrR', '_blank')">
                         <img src="assets/images/footer/google-podcast.png" alt="Rebranding Menopause Podcast"
                             class="footer-section__social-icon">
                         <img src="assets/images/footer/spotify.png" alt="Rebranding Menopause Podcast"
@@ -235,7 +249,7 @@
                 </div>
             </div>
             <div class="footer-section__content-form">
-                <h5>Find Your Community!</h5>
+                <h5>Join our community!</h5>
                 <script type="text/javascript" src="https://form.jotform.com/jsform/243152175031344"></script>
             </div>
         </div>
@@ -243,6 +257,17 @@
     <div class="footer-section__copyright">
         <p class="footer-section__text">Copyright © 2024 RebrandingMenopause. All Rights Reserved</p>
     </div>
+
+    <script src="https://cdn02.jotfor.ms/static/prototype.forms.js?v=3.3.58487" type="text/javascript"></script>
+    <script src="https://cdn03.jotfor.ms/static/jotform.forms.js?v=3.3.58487" type="text/javascript"></script>
+    <script src="https://cdn01.jotfor.ms/js/punycode-1.4.1.min.js?v=3.3.58487" type="text/javascript" defer></script>
+    <script src="https://cdn02.jotfor.ms/js/vendor/smoothscroll.min.js?v=3.3.58487" type="text/javascript"></script>
+    <script src="https://cdn03.jotfor.ms/js/errorNavigation.js?v=3.3.58487" type="text/javascript"></script>
+    <script type="text/javascript">
+        JotForm.newDefaultTheme = true;
+        JotForm.init(function () {
+        });
+    </script>
     <script src="index.js"></script>
 </body>
 
