@@ -1,8 +1,9 @@
 :root {
-    --main-bg-color: #fff;
-    --secondary-bg-color: #FAEBF2;
-    --accent-color: #E5AE5E;
-    --text-color: #092638;
+    --main-bg-color: #222;
+    --secondary-bg-color: #CAC6C3;
+    --accent-color: #EE6DBF;
+    --text-color: #222;
+    --main-text-color: #ffffff;
     --main-title-color: #092638;
     --secondary-title-color: #FF009C;
     --accent-title-color: #E08AB1;
