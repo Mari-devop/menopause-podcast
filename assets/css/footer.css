@@ -75,12 +75,18 @@
     justify-content: center;
     align-items: center;
     gap: 80px;
+}
+
+img.footer-section__social-icon {
+    max-width: 62px !important;
+    max-height: 62px !important;
+    transition: opacity 0.3s ease;
     cursor: pointer;
 }
 
-.footer-section__social-icon {
-    max-width: 62px !important;
-    max-height: 62px !important;
+img.footer-section__social-icon:hover {
+    opacity: 0.8; 
+    cursor: pointer;
 }
 
 .footer-section__copyright {
