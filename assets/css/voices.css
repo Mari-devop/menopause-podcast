@@ -196,7 +196,7 @@
         scroll-snap-align: start; 
     }
 
-    .voices-section__main-container::-webkit-scrollbar {
+    /* .voices-section__main-container::-webkit-scrollbar {
         width: 10px;
         height: 10px;
     }
@@ -213,7 +213,7 @@
     .voices-section__main-container::-webkit-scrollbar-thumb:hover {
         background: #FF0055;
         cursor: pointer;
-    }
+    } */
     
 }
 
