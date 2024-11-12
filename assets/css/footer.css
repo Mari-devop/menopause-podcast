@@ -5,6 +5,7 @@
     align-items: center;
     background-color: #222;
     padding: 55px 305px 0px;
+    border-top: 1px solid #FFF2C8;
 }
 
 .footer-section__content {
