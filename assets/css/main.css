@@ -205,6 +205,10 @@
     line-height: normal;
 }
 
+.header-section__btn--subscribe {
+    display: none;
+}
+
 @media (max-width: 1830px) {
     .hero-section__video-content {
         transform: translateX(-50px);
@@ -254,6 +258,32 @@
 
     .icon-section__container {
         gap: 40px;
+    }
+
+    .header-section__btn--subscribe {
+        width: 149px;
+        height: 42px;
+        display: flex;
+        padding: 12px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 6px;
+        background-color: var(--btn-color);
+        color: #FFF;
+        font-family: Comfortaa;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        cursor: pointer;
+        transition: opacity 0.3s ease;
+        margin-top: 20px;
+    }
+
+    .header-section__btn--subscribe:hover {
+        opacity: 0.8; 
     }
 }
 
