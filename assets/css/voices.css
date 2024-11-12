@@ -184,6 +184,7 @@
         width: 100%; 
         box-sizing: border-box; 
         scroll-snap-type: x mandatory; 
+        -webkit-overflow-scrolling: touch;
     }
 
     .voices-section__main-item {
@@ -196,21 +197,21 @@
     }
 
     .voices-section__main-container::-webkit-scrollbar {
-        width: 10px; 
-        height: 10px; 
+        width: 10px;
+        height: 10px;
     }
     
     .voices-section__main-container::-webkit-scrollbar-track {
-        background:  #E08AB1; 
+        background: #E08AB1;
     }
     
     .voices-section__main-container::-webkit-scrollbar-thumb {
-        background: #FF009C; 
-        border-radius: 5px; 
+        background: #FF009C;
+        border-radius: 5px;
     }
     
-    .voices-section__main-containerr::-webkit-scrollbar-thumb:hover {
-        background: #FF009C;
+    .voices-section__main-container::-webkit-scrollbar-thumb:hover {
+        background: #FF0055;
         cursor: pointer;
     }
     
