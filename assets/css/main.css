@@ -6,6 +6,7 @@
     padding: 62px 200px 71px;
     background-color: var(--secondary-bg-color);
     gap: 65px;
+    overflow: hidden;
 }
 
 .main-section-wrap {
