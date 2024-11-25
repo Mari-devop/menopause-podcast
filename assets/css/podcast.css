@@ -22,11 +22,14 @@
 }
 
 .podcast-section__container {
-    max-width: 355px;
+    /* max-width: 355px; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-radius: 18px !important;
+    overflow: hidden;
+
 }
 
 .podcast-section__wrapper {
@@ -38,10 +41,9 @@
 }
 
 .podcast-section__image-container {
-    max-width: 355px;
-    max-height: 383px;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
+    /* max-width: 355px; */
+    height: 317px;
+    /* max-height: 383px; */
 }
 
 .podcast-section__image {
@@ -59,7 +61,7 @@
     padding-top: 32px;
     padding-bottom: 42px;
     background-color: var(--main-text-color);
-    border-radius: 0px 0px 18px 18px;
+    /* border-radius: 0px 0px 18px 18px; */
     gap: 14px;
     box-sizing: border-box;
     max-width: 355px;
@@ -204,12 +206,24 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-wrap: wrap; 
-        gap: 20px; 
-        padding: 20px; 
-        width: 100%; 
-        box-sizing: border-box; 
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
         overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .podcast-section__container {
+        flex-direction: column;
+    }
+
+    .podcast-section__image-container {
+        max-width: 355px;
+        /* height: 317px; */
+        max-height: 383px;
     }
 }
 
@@ -221,7 +235,7 @@
     }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 520px) {
     .podcast-section {
         gap: 42px;
         padding-left: 20px;
@@ -229,7 +243,14 @@
     }
 
     .podcast-section__container,
-    .podcast-section__text-container  {
+    .podcast-section__text-container {
         max-width: 335px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .podcast-section__container,
+    .podcast-section__text-container {
+        max-width: 300px;
     }
 }
