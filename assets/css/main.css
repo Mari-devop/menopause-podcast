@@ -72,6 +72,11 @@
     height: auto;
 }
 
+.hero-section__play:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
 .hero-section__play-button {
     position: absolute;
     top: 50%;
@@ -284,7 +289,8 @@
     }
 
     .header-section__btn--subscribe:hover {
-        opacity: 0.8; 
+        color: #FFF;
+        background-color: var(--btn-hover-color);
     }
 }
 
