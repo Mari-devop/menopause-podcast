@@ -12,7 +12,7 @@ function openModal() {
     const videoFrame = document.getElementById("video-frame");
 
     modal.style.display = "block";
-    videoFrame.src = "https://www.youtube.com/embed/BklJ9e2fHjE?si=rkH43jSVEP-UW56R";
+    videoFrame.src = "https://www.youtube.com/embed/tiZfpCBQjeU?si=PRC_snNsgYn5W4fj";
   
     document.body.classList.add("no-scroll");
     document.addEventListener("keydown", handleEscapeKey);
