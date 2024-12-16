@@ -31,7 +31,7 @@
 
 .post-section__wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 32px;
@@ -93,6 +93,17 @@
     width: 40px;
     height: 40px;
     flex-shrink: 0;
+}
+
+.post-section__episode-title {
+    color: var(--text-color);
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 268px;
+    width: 100%;
 }
 
 .post-section__episode-text {
@@ -223,7 +234,7 @@
     }
 
     .post-section__text-container {
-        height: 200px;
+        height: 300px;
     }
 
     .post-section__episode-container {
@@ -233,7 +244,6 @@
 }
 
 @media screen and (max-width: 830px) {
-
     .post-section__image-container {
         height: auto;
         width: 100%;
@@ -272,7 +282,7 @@
     }
 
     .post-section__text-container {
-        height: 250px;
+        height: 300px;
     }
 }
 

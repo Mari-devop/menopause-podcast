@@ -303,10 +303,22 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    .voices-section__secondary-container {
+        left: 30px; 
+        right: 30px; 
+    }
+}
+
 @media screen and (max-width: 400px) {
     .voices-section {
         padding-top: 300px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .voices-section__secondary-container {
+        left: 20px; 
+        right: 20px; 
     }
 }

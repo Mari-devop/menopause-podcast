@@ -215,7 +215,7 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
-        padding: 20px;
+        /* padding: 20px; */
         width: 100%;
         box-sizing: border-box;
         overflow: hidden;
@@ -225,6 +225,10 @@
 @media screen and (max-width: 950px) {
     .podcast-section__container {
         flex-direction: column;
+    }
+
+    .podcast-section {
+        padding-top: 100px;
     }
 
     .podcast-section__image-container {
@@ -253,11 +257,15 @@
     .podcast-section__text-container {
         max-width: 335px;
     }
+
+    .podcast-section {
+        padding-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 435px) {
-    .podcast-section__container,
+    /* .podcast-section__container,
     .podcast-section__text-container {
         max-width: 300px;
-    }
+    } */
 }

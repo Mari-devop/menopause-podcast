@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     background-color: #222;
-    padding: 55px 305px 0px;
+    padding: 55px 305px 55px;
     border-top: 1px solid #FFF2C8;
 }
 
@@ -14,6 +14,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 186px;
+    padding-bottom: 10px;
+    height: 100%;
 }
 
 .footer-section__content-form {
