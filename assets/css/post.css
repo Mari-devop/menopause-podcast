@@ -5,11 +5,11 @@
     justify-content: center;
     gap: 82px;
     padding: 82px 202px 81px 201px;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--main-bg-color);
 }
 
 .post-section__title {
-    color: var(--text-color);
+    color: var(--main-text-color);
     text-align: center;
     font-family: Comfortaa;
     font-size: 52px;

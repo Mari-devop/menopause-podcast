@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 62px 200px 71px;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--main-bg-color);
     gap: 65px;
     overflow: hidden;
 }
@@ -135,7 +135,7 @@
 }
 
 .icon-section__text {
-    color: var(--text-color);
+    color: var(--main-text-color);
     font-family: Comfortaa;
     font-size: 32px;
     font-style: normal;

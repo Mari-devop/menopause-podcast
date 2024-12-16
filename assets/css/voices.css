@@ -6,10 +6,10 @@
     position: relative;
     padding-left: 201px;
     padding-right: 201px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     padding-top: 300px;
     margin-top: 300px;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--main-bg-color);
 }
 
 .voices-section__secondary-container {
@@ -74,7 +74,7 @@
 }
 
 .voices-section__main-title {
-    color: var(--text-color);
+    color: var(--main-text-color);
     text-align: center;
     font-family: Comfortaa;
     font-size: 52px;
@@ -122,7 +122,7 @@
 }
 
 .voices-section__title {
-    color: #222;
+    color: var(--main-text-color);
     text-align: center;
     font-family: "Kingsman Demo";
     font-size: 42px;
@@ -133,7 +133,7 @@
 }
 
 .voices-section__text {
-    color: var(--text-color);
+    color: var(--main-text-color);
     text-align: center;
     font-family: Comfortaa;
     font-size: 16px;
